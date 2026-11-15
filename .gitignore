@@ -1,0 +1,37 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# ===== 测试与缓存 =====
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ===== 密钥与配置（严禁提交）=====
+.env
+.env.*
+!.env.example
+
+# ===== 运行输出与日志（默认不入库）=====
+outputs/
+logs/
+*.log
+
+# ===== 个人记录 / 实验产物 =====
+data/cases/*.local.jsonl
+*.local.*
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
